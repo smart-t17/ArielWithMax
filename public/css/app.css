@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -8355,5 +8355,9 @@ button.close {
   padding: 20px;
   color: #fff;
   background: #333;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
 }
 
