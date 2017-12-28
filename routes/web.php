@@ -34,3 +34,5 @@ Route::get('/clients', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::post('/contact/submit', 'MessageController@submit' );

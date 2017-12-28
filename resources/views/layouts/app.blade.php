@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>Ariel</title>
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
+	<script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
 	@include('inc.navbar')
 	@yield('content')
-	
+
 	<!-- Footer -->
 	<footer class="footer bg-dark text-white">
 
@@ -36,7 +37,7 @@
 	        <div class="row">
 
 	            <div class="col-md-3 col-lg-4 col-xl-3">
-	                <h4>Company name</h4>
+	                <h4>Maximiliano Ungredda</h4>
 	                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
 	                <p>
 	                    When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
@@ -87,6 +88,6 @@
 	</footer>
 	<!-- Footer -->
 
-	
+
 </body>
 </html>
