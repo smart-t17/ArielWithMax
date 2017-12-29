@@ -6,7 +6,7 @@
 			<h3 class="display-4 text-center">  </h3>
 			<hr class="bg-dark mb-4 w-25">
 			<div class="row">
-
+				@include ('inc.messages')
 				<!-- first col-->
 				<div class="col-md-3">
 					<div class="panel">
